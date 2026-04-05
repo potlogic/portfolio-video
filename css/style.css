@@ -169,7 +169,9 @@ body {
   padding: 40px; /* breathing room */
   box-sizing: border-box;
 }
-
+.bottom-line-txt {
+  font-size: 6px;
+}
 .system-loop img {
   max-width: 85%;
   max-height: 85%;
