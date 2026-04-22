@@ -394,7 +394,8 @@ body {
 .video-replacement {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* this is the magic */
+  object-fit: cover;
+  object-position: center; /* 🎯 THIS centers the crop */
   display: block;
 }
 
