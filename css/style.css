@@ -194,27 +194,7 @@ body {
 }
 
 /* ✅ Deep blackout gradient for UI legibility */
-.block--video::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
 
-  height: 60%;
-
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.985) 0%,
-    rgba(0, 0, 0, 0.95) 22%,
-    rgba(0, 0, 0, 0.85) 40%,
-    rgba(0, 0, 0, 0.55) 60%,
-    rgba(0, 0, 0, 0.0) 100%
-  );
-
-  pointer-events: none;
-  z-index: 3;
-}
 
 .video-player {
   position: absolute;
